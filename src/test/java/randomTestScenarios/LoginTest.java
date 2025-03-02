@@ -1,3 +1,4 @@
+package randomTestScenarios;
 import java.io.FileInputStream;
 
 import org.apache.poi.ss.usermodel.Sheet;
@@ -11,6 +12,7 @@ import org.testng.annotations.Test;
 import jdk.javadoc.doclet.Reporter;
 
 @Test
+
 public class LoginTest {
 	
 	public void Login( ) throws Throwable {
