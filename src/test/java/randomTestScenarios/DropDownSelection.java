@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 @Test
 public class DropDownSelection {
 	
+	// Dropdown can be handled in 3 ways 1. Keyboard Strokes eg: keys.ENTER;  keys.ARROW_UP ; 2. Using Select Class as below; 3. Using locators
+	
 public void dropdowncheck() {
 	
 	WebDriver driver = new ChromeDriver();
